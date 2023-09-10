@@ -214,26 +214,14 @@ var _hmt = _hmt || [];
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsed: false,
-          editUrl: ({locale, docPath}) => {
-            if (locale === "en") {
-              return `https://github.com/casbin/casvisor-website/edit/master/docs/${docPath}`;
-            }
-            if (locale === "zh") {
-              return "https://crowdin.com/project/casvisor-website/zh-CN";
-            }
-            return `https://crowdin.com/project/casvisor-website/${locale}`;
+          editUrl: ({docPath}) => {
+            return `https://github.com/casbin/casvisor-website/edit/master/docs/${docPath}`;
           },
         },
         blog: {
           showReadingTime: true,
-          editUrl: ({locale, blogDirPath, blogPath}) => {
-            if (locale === "en") {
-              return `https://github.com/casbin/casvisor-website/edit/master/${blogDirPath}/${blogPath}`;
-            }
-            if (locale === "zh") {
-              return "https://crowdin.com/project/casvisor-website/zh-CN";
-            }
-            return `https://crowdin.com/project/casvisor-website/${locale}`;
+          editUrl: ({blogDirPath, blogPath}) => {
+            return `https://github.com/casbin/casvisor-website/edit/master/${blogDirPath}/${blogPath}`;
           },
         },
         theme: {
