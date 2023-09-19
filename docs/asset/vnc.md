@@ -5,7 +5,7 @@ keywords: [assets rdp]
 authors: [leoil]
 ---
 
-# VCN Connect
+## VCN Connect
 
 VCN connection is similar to RDP connections.
 
@@ -17,7 +17,6 @@ VCN connection is similar to RDP connections.
 
 2. Add a new asset, set protocol to `vnc`
     ![add list](/img/asset/asset_list.png)
-    
 
 3. Connect to your asset by clicking the `connect` button
 

@@ -7,8 +7,7 @@ authors: [leoil]
 
 Casvisor Support Connect to your assets via RDP protocol:
 
-## Rdp connection 
-
+## Rdp connection
 
 1. Start Guacamole Server
 
@@ -16,18 +15,16 @@ Casvisor Support Connect to your assets via RDP protocol:
     docker run --name guacd -d -p 4822:4822 guacamole/guacd
     ```
 
-
 2. Add a new asset, set protocol to `rdp`
     ![add list](/img/asset/asset_list.png)
 
-    
     ![add edit](/img/asset/asset_edit.png)
 
 3. Connect to your asset by clicking the `connect` button
 
     ![connect asset](/img/asset/rdp.gif)
 
-## Remote App 
+## Remote App
 
 We support remote app on Windows assets, you can add remote apps on `Asset Edit` page, and then you can connect to your remote app by clicking the `connect` button.
 
@@ -39,7 +36,6 @@ We support remote app on Windows assets, you can add remote apps on `Asset Edit`
     'remoteAppName', 'remoteAppDir', and 'remoteAppArgs' are required.
     ![asset config](/img/asset/casvisor_remote_app_config.png)
     refer to [Configuring Guacamole — Apache Guacamole Manual v1.5.3](https://guacamole.apache.org/doc/gug/configuring-guacamole.html#remoteapp)
-
 
 3. Connect to your remote app.
 
