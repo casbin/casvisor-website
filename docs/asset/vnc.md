@@ -1,7 +1,7 @@
 ---
 title: VNC
-description: Casvisor Assets RDP
-keywords: [assets rdp]
+description: Casvisor Assets VNC
+keywords: [assets vnc]
 authors: [leoil]
 ---
 
