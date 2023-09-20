@@ -24,24 +24,15 @@ module.exports = {
         },
       ],
     },
-    // {
-    //   type: "category",
-    //   label: "",
-    //   link: { type: "generated-index" },
-    //   items: [
-    //     "doc1",
-    //     "folder1/doc1",
-    //     {
-    //       type: "category",
-    //       label: "",
-    //       link: { type: "generated-index" },
-    //       items: [
-    //         "floder2/doc1",
-    //         "floder2/doc2",
-    //         "floder2/doc3",
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: "category",
+      label: "Assets",
+      link: {type: "generated-index"},
+      items: [
+        "asset/overview",
+        "asset/rdp",
+        "asset/vnc",
+      ],
+    },
   ],
 };
