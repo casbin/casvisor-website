@@ -32,7 +32,7 @@ Required fields:
 
 1. `Home`: The host of Casvisor server, e.g. `http://localhost:16001`.
 2. `Ognization`: The organization you created in the previous step.
-3. `Callback URLs`: The callback URL of Casvisor server, e.g. `http://localhost:16001/callback`. You can add multiple 
+3. `Callback URLs`: The callback URL of Casvisor server, e.g. `http://localhost:16001/callback`. You can add multiple
 callback URLs by clicking the `add` button. These are the urls that is allowed to be redirected after login.
 
 ![application edit](/img/installtion_application_edit.png)
