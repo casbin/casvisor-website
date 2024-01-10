@@ -17,6 +17,7 @@ module.exports = {
       link: {type: "generated-index"},
       items: [
         "overview",
+        "installation",
         {
           type: "link",
           label: "PDF Download",
