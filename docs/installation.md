@@ -29,6 +29,7 @@ can create an application by clicking the `add` button.
 ![create application](/img/installtion_application.png)
 
 Required fields:
+
 1. `Home`: The host of Casvisor server, e.g. `http://localhost:16001`.
 2. `Ognization`: The organization you created in the previous step.
 3. `Callback URLs`: The callback URL of Casvisor server, e.g. `http://localhost:16001/callback`. You can add multiple 
@@ -52,6 +53,7 @@ git clone https://github.com/casbin/casvisor
 ```
 
 ## Configuration
+
 ### Backend
 
 The configuration file of Casvisor backend located at `conf/app.conf`. You need to modify the following fields:
@@ -80,6 +82,7 @@ casdoorApplication = "app-casvisor"
 ```
 
 ### Frontend
+
 In `web/src/conf.js`, you need to modify the following fields:
 
 ```javascript
@@ -116,7 +119,7 @@ After building successfully, the frontend bundle will be generated in `web/build
 go build
 ```
 
-Visit backend server at `http://localhost:19000.
+Visit backend server at [http://localhost:19000](http://localhost:19000).
 
 ### Development
 
@@ -136,9 +139,4 @@ yarn start
 go build
 ```
 
-Visit frontend server `http://localhost:16001`.
-
-
-
-
-
+Visit frontend server [http://localhost:16001](http://localhost:16001).
