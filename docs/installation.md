@@ -7,7 +7,7 @@ authors: [leo220yuyaodog]
 
 ## Prerequisite
 
-Casvisor server uses Casdoor as the authentication and authorization system. So you need to install Casdoor first. If 
+Casvisor server uses Casdoor as the authentication and authorization system. So you need to install Casdoor first. If
 you haven't installed Casdoor, please refer to [Casdoor Installation](https://casdoor.org/docs/basic/server-installation).
 
 ### Casdoor configuration
@@ -23,7 +23,7 @@ And you can create an organization by clicking the `add` button.
 
 #### Create an application
 
-You need to create an application for Casvisor in Casdoor. The application page is at **Identity -> Applications**. And you 
+You need to create an application for Casvisor in Casdoor. The application page is at **Identity -> Applications**. And you
 can create an application by clicking the `add` button.
 
 ![create application](/img/installtion_application.png)
