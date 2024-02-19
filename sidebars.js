@@ -16,8 +16,9 @@ module.exports = {
       label: "The Basics",
       link: {type: "generated-index"},
       items: [
-        "overview",
-        "installation",
+        "basic/overview",
+        "basic/installation",
+        "basic/try-with-docker",
         {
           type: "link",
           label: "PDF Download",

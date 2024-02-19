@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-// eslint-disable-next-line unused-imports/no-unused-imports
-import Translate, {translate} from "@docusaurus/Translate";
+import Translate from "@docusaurus/Translate";
 
 function Help() {
   return (
