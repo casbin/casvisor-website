@@ -41,7 +41,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "basic/overview",
+          docId: "overview",
           position: "left",
           label: "Docs",
         },
@@ -117,7 +117,7 @@ module.exports = {
           items: [
             {
               label: "Overview",
-              to: "/docs/basic/overview",
+              to: "/docs/overview",
             },
           ],
         },
