@@ -38,6 +38,7 @@ callback URLs by clicking the `add` button. These are the urls that is allowed t
 ![application edit](/img/installtion_application_edit.png)
 
 ### guacd
+
 Casvisor uses guacamole-server to provide remote desktop access. If you want to use this feature, you need to install
 guacamole-server first. If you haven't installed guacamole-server, please refer to [guacamole-server Installation](https://guacamole.apache.org/doc/gug/installing-guacamole.html).
 
