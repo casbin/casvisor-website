@@ -108,7 +108,7 @@ docker run  \
 
 #### Run Casvisor
 
-Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casbin/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [Via Ini file](/docs/basic/server-installation#configuration).
+Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casbin/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
 
 Then run
 
