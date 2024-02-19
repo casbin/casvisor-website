@@ -36,12 +36,12 @@ We have provided two DockerHub images:
 | [casvisor-all-in-one](https://hub.docker.com/r/casbin/casvisor-all-in-one) | Casvisor, MySQL database and guacamole-server are included in the image | This image already includes a toy database and is only for testing purposes |
 | [casvisor](https://hub.docker.com/r/casbin/casvisor)                       | Only Casvisor is included in the image                       | This image can be connected to your own database and used in production     |
 
-1. casbin/casvisor-all-in-one: This image includes the casvisor binary, a MySQL database and guacamole-server, and all 
-the necessary configurations. It is designed for new users who want to try Casvisor quickly. With this image, you can 
-start Casvisor immediately with just one or two commands, without any complex configuration. However, please note that 
+1. casbin/casvisor-all-in-one: This image includes the casvisor binary, a MySQL database and guacamole-server, and all
+the necessary configurations. It is designed for new users who want to try Casvisor quickly. With this image, you can
+start Casvisor immediately with just one or two commands, without any complex configuration. However, please note that
 we **do not recommend** using this image in a production environment.
 
-Casvisor uses Casdoor as the authentication and authorization system. The default configuration of Casvisor is to use 
+Casvisor uses Casdoor as the authentication and authorization system. The default configuration of Casvisor is to use
 the office Casdoor server. If you want to use your own Casdoor server, you need to modify the configuration file `conf/app.conf`.
 
 ### **Option-1**: Use the toy database
@@ -108,7 +108,7 @@ docker run  \
 
 #### Run Casvisor
 
-Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casvisor/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [Via Ini file](/docs/basic/server-installation#via-ini-file).
+Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casbin/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [Via Ini file](/docs/basic/server-installation#via-ini-file).
 
 Then run
 
@@ -158,5 +158,4 @@ Casvisor uses guacamole-server to provide remote desktop access. If you want to 
 docker run -d --name guacd -p 4822:4822 guacamole/guacd
 ```
 
-Visit [**http://localhost:19000**](http://localhost:19000) in your browser. 
-
+Visit [**http://localhost:19000**](http://localhost:19000) in your browser.
