@@ -10,7 +10,7 @@ authors: [leo220yuyaodog]
 Casvisor server uses Casdoor as the authentication and authorization system. So you need to install Casdoor first. If
 you haven't installed Casdoor, please refer to [Casdoor Installation](https://casdoor.org/docs/basic/server-installation).
 
-### Casdoor configuration
+### Casdoor
 
 You have installed Casdoor, now you need to do some necessary configuration in Casdoor in order to use Casvisor.
 
@@ -36,6 +36,15 @@ Required fields:
 callback URLs by clicking the `add` button. These are the urls that is allowed to be redirected after login.
 
 ![application edit](/img/installtion_application_edit.png)
+
+### guacd
+Casvisor uses guacamole-server to provide remote desktop access. If you want to use this feature, you need to install guacamole-server first. If you haven't installed guacamole-server, please refer to [guacamole-server Installation](https://guacamole.apache.org/doc/gug/installing-guacamole.html).
+
+You can also run guacd in docker with the following command:
+
+```shell
+docker run -d --name guacd -p 4822:4822 guacamole/guacd
+```
 
 ## Download
 

@@ -25,7 +25,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             style={{marginTop: "2rem", marginRight: "3rem", marginLeft: "3rem"}}
-            to="/docs/overview">
+            to="/docs/basic/overview">
             <Translate>Get Started</Translate>
           </Link>
         </div>
