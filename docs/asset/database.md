@@ -20,13 +20,3 @@ The section will tell you how to add a database asset and connect to your databa
 
 - In asset list page, click the `Connect` button to connect to your database.
 - In the workbench, click the database asset to connect to your database.
-
-
-
-
-
-
-
-
-
-

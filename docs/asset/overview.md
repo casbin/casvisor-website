@@ -8,11 +8,13 @@ authors: [leoil]
 Casvisor helps you to manage assets, and connect to your assets remotely, including remote desktop via RDP, VNC, SSH, and databases.
 
 **Machine**:
+
 - SSH
 - RDP
 - VNC
 
 **Database**:
+
 - MySQL
 - MariaDB
 - PostgreSQL
