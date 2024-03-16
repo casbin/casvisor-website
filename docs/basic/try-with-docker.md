@@ -113,10 +113,10 @@ Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/
 Then run
 
 ```bash
-docker run  -p 19000:19000 -v /folder/of/app.conf:/conf casbin/casvisor:latest
+docker run  -p 19000:19000 -v /folder/of/app.conf:/home/casvisor/conf casbin/casvisor:latest
 ```
 
-Anyway, just **mount the app.conf to /conf/app.conf** and start the container.
+Anyway, just **mount the folder of app.conf to /home/casvisor/conf** and start the container.
 
 :::tip
 

@@ -34,6 +34,7 @@ module.exports = {
         "asset/overview",
         "asset/rdp",
         "asset/vnc",
+        "asset/database",
       ],
     },
   ],
