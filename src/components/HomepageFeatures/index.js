@@ -7,39 +7,40 @@ import {useColorMode} from "@docusaurus/theme-common";
 const FeatureList = [
   {
     title: translate({
-      message: "Feature 1",
+      message: "Single Sign-On & User Asset Authorization",
     }),
     path: "/img/model",
     description: (
       <>
         <Translate>
-          detail description
+          Easily manage user access and control asset permissions with Casdoor. Streamline user management and ensure secure, authorized access to your assets.
         </Translate>
       </>
     ),
   },
   {
     title: translate({
-      message: "Feature 2",
+      message: "Remote Asset Management",
     }),
     path: "/img/storage",
     description: (
       <>
         <Translate>
-          detail description
+          Simplify asset management with Casvisor. Easily connect to machines using RDP, SSH, and VNC protocols for
+          efficient remote desktop access and establish convenient connections to databases.
         </Translate>
       </>
     ),
   },
   {
     title: translate({
-      message: "Feature 3",
+      message: "Audit Logging & Monitoring",
     }),
     path: "/img/language",
     description: (
       <>
         <Translate>
-          detail description
+          Monitor and log remote connections with comprehensive auditing in Casvisor. Keep track of connection start time, duration, and API logs for Casdoor operations.
         </Translate>
       </>
     ),

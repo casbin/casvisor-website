@@ -17,7 +17,7 @@ function HomepageHeader() {
         <br />
         <p className="hero__subtitle" style={{margin: "0 auto", maxWidth: 700}}>
           <Translate>
-            An open-source security log auditing & RDP, VNC, SSH bastion platform
+            An open-source security log auditing & RDP, VNC, SSH and databases management bastion platform
           </Translate>
         </p>
         <br />
@@ -76,7 +76,7 @@ export default function Home() {
   return (
     <Layout
       title={"Casvisor"}
-      description="An open-source security log auditing & RDP, VNC, SSH bastion platform">
+      description="An open-source security log auditing & RDP, VNC, SSH and databases management bastion platform">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
