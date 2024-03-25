@@ -80,7 +80,7 @@ Note: The above command utilizes Linux tools like `curl`, `sed`, `grep`, and `aw
 
 :::
 
-You can use [docker-compose.yml](https://github.com/casbin/casvisor/blob/master/docker-compose.yml) in the official repository. Create a `conf/app.conf` directory in the same directory level as the `docker-compose.yml` file. Then, copy [app.conf](https://github.com/casbin/casvisor/blob/master/conf/app.conf) from Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
+You can use [docker-compose.yml](https://github.com/casvisor/casvisor/blob/master/docker-compose.yml) in the official repository. Create a `conf/app.conf` directory in the same directory level as the `docker-compose.yml` file. Then, copy [app.conf](https://github.com/casvisor/casvisor/blob/master/conf/app.conf) from Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
 
 ```bash
 docker-compose up
@@ -108,7 +108,7 @@ docker run  \
 
 #### Run Casvisor
 
-Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casbin/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
+Create `conf/app.conf`. You can copy it from [conf/app.conf](https://github.com/casvisor/casvisor/blob/master/conf/app.conf) in Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
 
 Then run
 

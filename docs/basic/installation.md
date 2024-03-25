@@ -50,17 +50,17 @@ docker run -d --name guacd -p 4822:4822 guacamole/guacd
 
 ## Download
 
-The source code of Casvisor is hosted on GitHub: <https://github.com/casbin/casvisor>. Both the Go backend code and React frontend code are contained in a single repository.
+The source code of Casvisor is hosted on GitHub: <https://github.com/casvisor/casvisor>. Both the Go backend code and React frontend code are contained in a single repository.
 
 | Name     | Description                     | Language              | Source code                                          |
 |----------|---------------------------------|-----------------------|------------------------------------------------------|
-| Frontend | Web frontend UI for Casdoor     | JavaScript + React    | <https://github.com/casbin/casvisor/tree/master/web> |
-| Backend  | RESTful API backend for Casdoor | Golang + Beego + XORM | <https://github.com/casbin/casvisor>                 |
+| Frontend | Web frontend UI for Casdoor     | JavaScript + React    | <https://github.com/casvisor/casvisor/tree/master/web> |
+| Backend  | RESTful API backend for Casdoor | Golang + Beego + XORM | <https://github.com/casvisor/casvisor>                 |
 
 Casvisor supports `Go Modules`. To download the code, simply clone the code using git:
 
 ```shell
-git clone https://github.com/casbin/casvisor
+git clone https://github.com/casvisor/casvisor
 ```
 
 ## Configuration

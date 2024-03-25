@@ -3,20 +3,20 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Casvisor · An open-source security log auditing & RDP, VNC, SSH bastion platform",
+  title: "Casvisor · An open-source security log auditing & RDP, VNC, SSH and databases management bastion platform",
   url: "https://casvisor.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "casbin", // Usually your GitHub org/user name.
+  organizationName: "casvisor", // Usually your GitHub org/user name.
   projectName: "casvisor-website", // Usually your repo name.
   i18n: {
     defaultLocale: "en",
     locales: ["en", "zh", "fr", "de", "ko", "ru", "ja"],
   },
   themeConfig: {
-    metadata: [{name: "Casvisor", content: "An open-source security log auditing & RDP, VNC, SSH bastion platform"}],
+    metadata: [{name: "Casvisor", content: "An open-source security log auditing & RDP, VNC, SSH and databases management bastion platform"}],
     // algolia: {
     //   appId: "",
     //   apiKey: "",
@@ -80,7 +80,7 @@ module.exports = {
           ],
         },
         {
-          href: "https://github.com/casbin/casvisor",
+          href: "https://github.com/casvisor/casvisor",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
@@ -126,7 +126,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/casbin/casvisor",
+              href: "https://github.com/casvisor/casvisor",
             },
             {
               label: "Discord",
@@ -151,7 +151,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/casbin/casvisor",
+              href: "https://github.com/casvisor/casvisor",
             },
             {
               html: `
@@ -215,13 +215,13 @@ var _hmt = _hmt || [];
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsed: false,
           editUrl: ({docPath}) => {
-            return `https://github.com/casbin/casvisor-website/edit/master/docs/${docPath}`;
+            return `https://github.com/casvisor/casvisor-website/edit/master/docs/${docPath}`;
           },
         },
         blog: {
           showReadingTime: true,
           editUrl: ({blogDirPath, blogPath}) => {
-            return `https://github.com/casbin/casvisor-website/edit/master/${blogDirPath}/${blogPath}`;
+            return `https://github.com/casvisor/casvisor-website/edit/master/${blogDirPath}/${blogPath}`;
           },
         },
         theme: {
