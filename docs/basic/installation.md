@@ -132,6 +132,23 @@ go build
 
 Visit backend server at [http://localhost:19000](http://localhost:19000).
 
+#### Nginx
+
+:::tip
+If you use nginx as a reverse proxy, you need to add the following configuration to the nginx configuration file:
+
+```bash
+location / {
+    *** your configuration ***
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+}
+```
+
+Because Casvisor uses websocket to communicate with guacd.
+
+:::
+
 ### Development
 
 In development, you need to run the frontend code and backend code at the same time.
