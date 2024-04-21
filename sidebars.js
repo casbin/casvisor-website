@@ -38,5 +38,13 @@ module.exports = {
         "asset/intranet",
       ],
     },
+    {
+      type: "category",
+      label: "Commands",
+      link: {type: "generated-index"},
+      items: [
+        "command/command",
+      ],
+    },
   ],
 };
