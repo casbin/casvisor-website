@@ -54,31 +54,7 @@ docker run -p 19000:19000 casbin/casvisor-all-in-one
 
 Visit [**http://localhost:19000**](http://localhost:19000) in your browser.
 
-:::caution
-
-Some users in areas like China usually use Docker image mirror services like [Alibaba Cloud Image Booster](https://help.aliyun.com/document_detail/60750.html) ([English](https://www.alibabacloud.com/help/en/container-registry/latest/accelerate-the-download-of-docker-official-images)) to achieve higher download speeds compared to DockerHub. However, these services have a known issue where the `latest` tag provided by them is not up-to-date. As a result, fetching the `latest` tag may result in a very old image. To mitigate this issue, you can specify the image version number explicitly using the following command:
-
-```shell
-docker pull casbin/casvisor-all-in-one:$(curl -sS "https://hub.docker.com/v2/repositories/casbin/casvisor-all-in-one/tags/?page_size=1&page=2" | sed 's/,/,\n/g' | grep '"name"' |awk -F '"' '{print $4}')
-```
-
-Note: The above command utilizes Linux tools like `curl`, `sed`, `grep`, and `awk`. If you are using Windows, make sure you run it in a Linux-style shell like `Git Shell` or `Cygwin`. `CMD` or `PowerShell` won't work.
-
-:::
-
 ### **Option-2**: Try with docker-compose
-
-:::caution
-
-Some users in areas like China usually use Docker image mirror services like [Alibaba Cloud Image Booster](https://help.aliyun.com/document_detail/60750.html) ([English](https://www.alibabacloud.com/help/en/container-registry/latest/accelerate-the-download-of-docker-official-images)) to achieve higher download speeds compared to DockerHub. However, these services have a known issue where the `latest` tag provided by them is not up-to-date. As a result, fetching the `latest` tag may result in a very old image. To mitigate this issue, you can specify the image version number explicitly using the following command:
-
-```shell
-docker pull casbin/casvisor:$(curl -sS "https://hub.docker.com/v2/repositories/casbin/casvisor/tags/?page_size=1&page=2" | sed 's/,/,\n/g' | grep '"name"' |awk -F '"' '{print $4}')
-```
-
-Note: The above command utilizes Linux tools like `curl`, `sed`, `grep`, and `awk`. If you are using Windows, make sure you run it in a Linux-style shell like `Git Shell` or `Cygwin`. `CMD` or `PowerShell` won't work.
-
-:::
 
 You can use [docker-compose.yml](https://github.com/casvisor/casvisor/blob/master/docker-compose.yml) in the official repository. Create a `conf/app.conf` directory in the same directory level as the `docker-compose.yml` file. Then, copy [app.conf](https://github.com/casvisor/casvisor/blob/master/conf/app.conf) from Casvisor. For more details about `app.conf`, you can see [configuration](/docs/basic/installation#configuration).
 
@@ -136,18 +112,6 @@ docker run \
   casbin/casvisor:latest
 
 ```
-
-:::
-
-:::caution
-
-Some users in areas like China usually use Docker image mirror services like [Alibaba Cloud Image Booster](https://help.aliyun.com/document_detail/60750.html) ([English](https://www.alibabacloud.com/help/en/container-registry/latest/accelerate-the-download-of-docker-official-images)) to achieve higher download speeds compared to DockerHub. However, these services have a known issue where the `latest` tag provided by them is not up-to-date. As a result, fetching the `latest` tag may result in a very old image. To mitigate this issue, you can specify the image version number explicitly using the following command:
-
-```shell
-docker pull casbin/casvisor:$(curl -sS "https://hub.docker.com/v2/repositories/casbin/casvisor/tags/?page_size=1&page=2" | sed 's/,/,\n/g' | grep '"name"' |awk -F '"' '{print $4}')
-```
-
-Note: The above command utilizes Linux tools like `curl`, `sed`, `grep`, and `awk`. If you are using Windows, make sure you run it in a Linux-style shell like `Git Shell` or `Cygwin`. `CMD` or `PowerShell` won't work.
 
 :::
 
