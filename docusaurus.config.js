@@ -35,7 +35,7 @@ module.exports = {
       title: "Casvisor",
       logo: {
         alt: "My Site Logo",
-        src: "img/casbin.svg",
+        src: "img/casvisor.png",
       },
       // hideOnScroll: true,
       items: [
@@ -154,8 +154,8 @@ var _hmt = _hmt || [];
         },
       ],
       logo: {
-        alt: "Casbin Logo",
-        src: "img/casbin_min.svg",
+        alt: "Casvisor Logo",
+        src: "img/casvisor_min.png",
         href: "https://casvisor.org/",
       },
       copyright: `Copyright © ${new Date().getFullYear()} Casvisor contributors.`,
