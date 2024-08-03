@@ -40,7 +40,7 @@ ssh <Username>@<Casvisor server public IP> -p 7000
 
 - Endpoint: Unlike public assets, the endpoint needs to be filled in with the application address of the private network.
   If you want to use SSH or RDP to connect to the host, enter 127.0.0.1
-- Port: The port of the application in the intranet machine. Port 3389 is used by RDP and 22 by SSH by default. If you 
+- Port: The port of the application in the intranet machine. Port 3389 is used by RDP and 22 by SSH by default. If you
   have a custom port, fill in your custom port.
 - Username: The username of the application.
 - Password: The password of the application.
