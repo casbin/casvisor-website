@@ -1,8 +1,8 @@
-# [casvisor.org](https://casvisor.org) [![Build and Deploy](https://github.com/casbin/casvisor-website/actions/workflows/master.yml/badge.svg)](https://github.com/casbin/casvisor-website/actions/workflows/master.yml)
+# [casvisor.org](https://casvisor.org) [![Build and Deploy](https://github.com/casvisor/casvisor-website/actions/workflows/master.yml/badge.svg)](https://github.com/casvisor/casvisor-website/actions/workflows/master.yml)
 
 The configuration and documentation of casvisor website: <https://casvisor.org/>.
 
-casvisor website is built using [Docusaurus](https://docusaurus.io/), you can get the PDF at [casvisor.org/pdf](https://casvisor.org/pdf) or [GitHub Action](https://github.com/casbin/casvisor-website/actions/workflows/master.yml).
+casvisor website is built using [Docusaurus](https://docusaurus.io/), you can get the PDF at [casvisor.org/pdf](https://casvisor.org/pdf) or [GitHub Action](https://github.com/casvisor/casvisor-website/actions/workflows/master.yml).
 
 ## Get Started
 
@@ -14,7 +14,7 @@ casvisor website is built using [Docusaurus](https://docusaurus.io/), you can ge
 
 ### Running Locally
 
-1. `git clone https://github.com/casbin/casvisor-website.git`
+1. `git clone https://github.com/casvisor/casvisor-website.git`
 2. `cd casvisor-website`
 3. `yarn`: install dependencies.
 4. `yarn start`: starting the development server.

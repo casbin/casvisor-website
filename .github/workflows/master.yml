@@ -53,6 +53,6 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY}}
           git-config-name: ${{ secrets.GH_NAME }}
           git-config-email: ${{ secrets.GH_EMAIL }}
-          repository-name: casbin/casvisor.github.io
+          repository-name: casvisor/casvisor.github.io
           branch: master # The deploy branch.
           folder: build # The deploy folder.

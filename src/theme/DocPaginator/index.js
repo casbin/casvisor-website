@@ -11,7 +11,7 @@ export default function DocPaginatorWrapper(props) {
       <br />
       <Giscus
         id="comments"
-        repo="casbin/casvisor"
+        repo="casvisor/casvisor"
         repoId="R_kgDOKBKvow"
         category="Docs comments"
         categoryId="DIC_kwDOKBKvo84CYuZw"
