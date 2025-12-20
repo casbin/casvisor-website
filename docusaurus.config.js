@@ -131,7 +131,7 @@ module.exports = {
             },
             {
               html: `
-              <iframe src="https://ghbtns.com/github-btn.html?user=casbin&repo=casvisor&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub">Casvisor</iframe>
+              <iframe src="https://ghbtns.com/github-btn.html?user=casvisor&repo=casvisor&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub">Casvisor</iframe>
               `,
             },
             {
