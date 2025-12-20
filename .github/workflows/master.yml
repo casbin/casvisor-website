@@ -50,7 +50,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          ssh-key: ${{ secrets.DEPLOY_KEY}}
+          token: ${{ secrets.GH_BOT_TOKEN }}
           git-config-name: ${{ secrets.GH_NAME }}
           git-config-email: ${{ secrets.GH_EMAIL }}
           repository-name: casvisor/casvisor.github.io
